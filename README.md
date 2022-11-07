@@ -41,15 +41,14 @@ screenshot.display() # to display screenshot
 
 ### Command Line
 To take and save screenshot in png format.
-```commandline
+```
 $ savescreen --name shot --format png
 Screenshot saved in '.../shot.png'.
 ```
 ###
 
 To take and save screenshot after 30 secs.
-
-```commandline
+```
 $ savescreen --name shot --format png --timeout 30
 Screenshot saved in '.../shot.png'.
 ```
